@@ -69,7 +69,7 @@
 		bindings = <
 		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
 		&kp TAB    &kp HOME    &kp BKSP      &kp DEL     &kp END 		&kp MINUS &kp EQL   &kp LBKT &kp RBKT  &kp BKSP 
-		&kp ESC    &kp TILDE 	&kp KPLS &trans  &kp TILDE2 			&trans    &kp GRAVE &trans &trans  &kp DEL 
+		&kp ESC    &trans &trans &trans   &kp BSLH 				&trans    &kp GRAVE &trans &trans  &kp DEL 
 				 &trans  &mo 1 						&trans &mo 2 
 		>;
 		};
@@ -78,7 +78,7 @@
 		bindings = <
 		&kp BANG  &kp ATSN &kp HASH  &kp DLLR  &kp PRCT    			&kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN 
 		&kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN 			&kp MINUS &kp EQUAL  &kp LBRC  &kp RBRC   &kp BKSP
-		&kp LSFT  &trans &trans &trans   &kp BSLH    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
+		&kp LSFT  &kp TILDE 	&kp KPLS &trans  &kp TILDE2    			&kp UNDER &kp LEFT &kp DOWN &kp UP  &kp RIGHT
 					  &mo 3 &trans  				&trans  &mo 2 
 		>;
 		};	
